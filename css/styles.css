@@ -76,3 +76,109 @@ footer {
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.main__hero {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.main__hero nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main__hero nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.main__hero nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #3498db;
+}
+
+.landing__container {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+#portfolio .gallery img {
+  max-width: 200px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #3498db;
+}
+
+@media (max-width: 768px) {
+  .main__hero nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .gallery img {
+    max-width: 100%;
+  }
+}
+
+
