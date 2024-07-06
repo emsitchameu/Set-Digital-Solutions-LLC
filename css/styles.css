@@ -1,91 +1,5 @@
 body {
   font-family: 'Merriweather', serif;
-  margin: 0;
-  padding: 0;
-}
-
-.main__hero {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-.main__hero nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-.main__hero nav ul li {
-  display: inline;
-  margin: 0 10px;
-}
-
-.main__hero nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.btn {
-  background-color: #5cb85c;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.landing__container {
-  padding: 20px;
-  margin: 20px 0;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-}
-
-#portfolio .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-}
-
-#portfolio .gallery img {
-  max-width: 200px;
-  border: 2px solid #ddd;
-  border-radius: 5px;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-#scrollToTopBtn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: none;
-  background-color: #5cb85c;
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Merriweather', serif;
   background-color: #f0f2f5;
   color: #333;
   line-height: 1.6;
@@ -117,6 +31,7 @@ body {
   background-color: #2980b9;
   color: white;
   padding: 10px 20px;
+  margin: 20px 20px 20px 20px;
   text-decoration: none;
   border-radius: 5px;
 }
@@ -180,5 +95,3 @@ footer {
     max-width: 100%;
   }
 }
-
-
