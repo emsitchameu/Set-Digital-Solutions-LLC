@@ -10,106 +10,113 @@
   <!-- Load Styles -->
   <link href="css/styles.css" rel="stylesheet">
 </head>
-
 <body>
 
-<!-- Introducing landing Page Background -->
+<!-- Container for bubbles -->
+<div id="bubbles"></div>
 
-  <header class="page__header">
-    <nav class="navbar__menu">
-      <!-- Navigation starts as empty UL that will be populated with JS -->
-        <ul>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<header class="page__header">
+  <nav class="navbar__menu">
+    <!-- Navigation starts as empty UL that will be populated with JS -->
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- Main hero section -->
+  <header class="main__hero">
+    <h1>Set Digital Solutions</h1>
   </header>
 
-  <main>
-    <header class="main__hero">
-      <h1>Set Digital Solutions</h1>
-    </header>
-    <!-- Sections -->
+  <!-- Hero section with a welcome message and call-to-action button -->
+  <section id="hero">
+    <h2>Welcome to Set Digital Solutions LLC</h2>
+    <p>Your one-stop solution for front-end web development, e-commerce consultation, and digital marketing services.</p>
+    <a href="#contact" class="btn">Get Started</a>
+  </section>
 
-     <section id="hero">
-      <h2>Welcome to Set Digital Solutions LLC</h2>
-      <p>Your one-stop solution for front-end web development, e-commerce consultation, and digital marketing services.</p>
-      <a href="#contact" class="btn">Get Started</a>
-    </section>
+  <!-- Services section listing the main services provided -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Information Technology Services</li>
+      <li>Software Development</li>
+      <li>Digital Marketing</li>        
+      <li>E-commerce Solutions</li>
+    </ul>
+  </section>
 
-     <section id="services">
-      <h2>Our Services</h2>
-      <ul>
-        <li>Information Technology Services</li>
-        <li>Software Development</li>
-        <li>Digital Marketing</li>        
-        <li>E-commerce Solutions</li>
-      </ul>
-    </section>
+  <!-- Detailed sections for each service -->
+  <section id="section1" class="landing__container">
+    <h2>Information Technology Services</h2>
+    <p>We provide comprehensive IT services, including system integration, network management, and IT support. Our team ensures that your IT infrastructure is efficient, secure, and aligned with your business goals.</p>
+    <p>We offer solutions that include IT consulting, cloud services, cybersecurity, and managed IT services to help your business operate smoothly and securely.</p>
+  </section>
 
-    <section id="section1" data-nav="Section 1" class="your-active-class">
+  <section id="section2" class="landing__container">
+    <h2>Software Development</h2>
+    <p>Our software development services cover custom software solutions, mobile app development, and web applications. We tailor our services to meet your specific needs, ensuring high-quality, scalable, and robust software products.</p>
+    <p>We utilize the latest technologies and methodologies to deliver software solutions that enhance your business efficiency and customer satisfaction.</p>
+  </section>
 
-        <section id="section1" class="landing__container">
-      <h2>Information Technology Services</h2>
-      <p>We provide comprehensive IT services, including system integration, network management, and IT support. Our team ensures that your IT infrastructure is efficient, secure, and aligned with your business goals.</p>
-      <p>We offer solutions that include IT consulting, cloud services, cybersecurity, and managed IT services to help your business operate smoothly and securely.</p>
-    </section>
+  <section id="section3" class="landing__container">
+    <h2>Digital Marketing</h2>
+    <p>Our digital marketing services help you build a strong online presence, reach your target audience, and achieve your marketing goals. We offer SEO, social media marketing, content marketing, and PPC advertising.</p>
+    <p>Our strategies are data-driven and tailored to maximize your ROI and drive sustainable growth for your business.</p>
+  </section>
 
-    <section id="section2" class="landing__container">
-      <h2>Software Development</h2>
-      <p>Our software development services cover custom software solutions, mobile app development, and web applications. We tailor our services to meet your specific needs, ensuring high-quality, scalable, and robust software products.</p>
-      <p>We utilize the latest technologies and methodologies to deliver software solutions that enhance your business efficiency and customer satisfaction.</p>
-    </section>
-    <section id="section3" class="landing__container">
-      <h2>Digital Marketing</h2>
-      <p>Our digital marketing services help you build a strong online presence, reach your target audience, and achieve your marketing goals. We offer SEO, social media marketing, content marketing, and PPC advertising.</p>
-      <p>Our strategies are data-driven and tailored to maximize your ROI and drive sustainable growth for your business.</p>
-    </section>
-    <section id="section4" class="landing__container">
-      <h2>E-commerce Solutions</h2>
-      <p>We provide end-to-end e-commerce solutions, including e-commerce platform setup, customization, and management. Our services ensure that your online store is user-friendly, secure, and optimized for sales.</p>
-      <p>We help you integrate advanced features like payment gateways, inventory management, and analytics to enhance your e-commerce operations.</p>
-    </section>
+  <section id="section4" class="landing__container">
+    <h2>E-commerce Solutions</h2>
+    <p>We provide end-to-end e-commerce solutions, including e-commerce platform setup, customization, and management. Our services ensure that your online store is user-friendly, secure, and optimized for sales.</p>
+    <p>We help you integrate advanced features like payment gateways, inventory management, and analytics to enhance your e-commerce operations.</p>
+  </section>
 
+  <!-- Portfolio section with images of completed projects -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <img src="images/project1.jpg" alt="Project 1">
+      <img src="images/project2.jpg" alt="Project 2">
+      <img src="images/project3.jpg" alt="Project 3">
+      <img src="images/project4.jpg" alt="Project 4">
+    </div>
+  </section>
 
-  <!-- fin normalement-->
+  <!-- About section with information about the team and mission -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Learn more about our team and our mission.</p>
+  </section>
 
+  <!-- Contact section with a form for users to reach out -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="submit.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
 
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-      <div class="gallery">
-        <img src="images/project1.jpg" alt="Project 1">
-        <img src="images/project2.jpg" alt="Project 2">
-        <img src="images/project3.jpg" alt="Project 3">
-        <img src="images/project4.jpg" alt="Project 4">
-      </div>
-    </section>
-    <section id="about">
-      <h2>About Us</h2>
-      <p>Learn more about our team and our mission.</p>
-    </section>
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <form action="submit.php" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-    <footer>
-      <p>&copy; 2024 Set Digital Solutions. All rights reserved.</p>
-    </footer>
-    <button id="scrollToTopBtn" title="Go to top">Top</button>
-    <script src="js/app.js"></script>
+  <!-- Footer section -->
+  <footer>
+    <p>&copy; 2024 Set Digital Solutions. All rights reserved.</p>
+  </footer>
 
-  </main>
+  <!-- Scroll to top button -->
+  <button id="scrollToTopBtn" title="Go to top">Top</button>
 
-
+  <!-- JavaScript file for interactive features -->
+  <script src="js/app.js"></script>
+</main>
 </body>
 </html>
