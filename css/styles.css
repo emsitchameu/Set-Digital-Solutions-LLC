@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Merriweather', serif;
-  background-color: #f0f2f5;
+  background-color: #000000;
   color: #333;
   line-height: 1.6;
   position: relative;
@@ -55,7 +55,7 @@ body {
 section {
   padding: 60px 20px;
   margin: 20px 0;
-  background-color: #ffffff;
+  background-color: #8bcbe9;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
