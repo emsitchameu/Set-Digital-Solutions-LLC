@@ -41,7 +41,7 @@ body {
 /* Hero section */
 .main__hero {
   background: url('../images/hero-bg.jpg') no-repeat center center/cover;
-  color: white;
+  /*color: white;*/
   padding: 100px 20px;
   text-align: center;
 }
