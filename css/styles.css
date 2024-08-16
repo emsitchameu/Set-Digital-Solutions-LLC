@@ -38,6 +38,12 @@ body {
   text-decoration: underline;
 }
 
+/* Background image Header section */
+#bg-set-1 {
+  max-width: 200px;
+  border-radius: 5px;
+}
+
 /* Hero section */
 .main__hero {
   background: url('../images/Landing Page Banner-BG-1.jpg') no-repeat center center/cover;
@@ -46,10 +52,7 @@ body {
   text-align: center;
 }
 
-#bg-set-1 {
-  max-width: 200px;
-  border-radius: 5px;
-}
+
 
 .main__hero h1 {
   font-size: 3em;
