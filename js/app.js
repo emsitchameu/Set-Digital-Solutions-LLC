@@ -16,7 +16,7 @@ scrollToTopBtn.onclick = function () {
   document.documentElement.scrollTop = 0;
 };
 
-// Create bubbles............
+// Create bubbles..............
 const bubblesContainer = document.getElementById("bubbles");
 
 function createBubble() {
